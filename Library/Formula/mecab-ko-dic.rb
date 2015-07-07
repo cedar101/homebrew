@@ -20,6 +20,7 @@ class MecabKoDic < Formula
       open("#{etc}/mecabrc", "a") { |f| f.puts "dicdir = #{opt_prefix}\n" }
     end
     
-    share.install Dir["#{buildpath}/*"]
+    share.install "*"
+    #share.install Dir["#{buildpath}/*"]
   end
 end
