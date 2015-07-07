@@ -3,8 +3,8 @@ require "formula"
 class MecabKoDic < Formula
   desc "See mecab"
   homepage "https://bitbucket.org/eunjeon/mecab-ko-dic"
-  url "https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-1.6.1-20140814.tar.gz"
-  sha1 "f68a6faf9aa86691de5a1abace65e70571972d03"
+  url "https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.0.1-20150707.tar.gz"
+  sha1 "f6987b1a9b728e375d05764286fb5a97f127aa42"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
