@@ -19,5 +19,7 @@ class MecabKoDic < Formula
     if File.readlines("#{etc}/mecabrc").grep(/^dicdir.*=/).empty?
       open("#{etc}/mecabrc", "a") { |f| f.puts "dicdir = #{opt_prefix}\n" }
     end
+    
+    prefix.install Dir["tools/*"]
   end
 end
